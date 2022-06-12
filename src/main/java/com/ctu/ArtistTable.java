@@ -21,10 +21,12 @@ public abstract class ArtistTable implements Interface1 {
         Integer[] artistSales = {500, 600};
 
 //        artistNames[row]
-
+        System.out.println("---------------------------------");
+        System.out.println("Summary:");
         for (int inc = 0; inc < artistNames.length; inc++)   {
             System.out.println(artistNames[inc] + " : " + artistSales[inc]);
         }
+        System.out.println("---------------------------------");
         
     }
    

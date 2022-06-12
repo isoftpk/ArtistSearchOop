@@ -17,12 +17,12 @@ public class Artist extends ArtistTable {
 //    public void salesSummary() {
 //        
 //    }
-    
+//    
     public void salesSummary(int artistPosition) {
         
         String[] artistNames = {"", "Master KG", "Foo Fighters"};
         Integer[] artistSales = {0, 500, 600};
-
+            System.out.println("Single Artist Info:");
             switch(artistPosition){
                 case 1:
                     System.out.println("Artist name: " + artistNames[artistPosition]);
